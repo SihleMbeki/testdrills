@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,7 +104,12 @@
                     <div class="method-list-content passed suite-TestNG_Practice">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-TestNG_Practice" title="testDrills.Automation.testing.AppTest" class="method navigator-link" hash-for-method="test(Chrome)">test(Chrome)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-TestNG_Practice" title="testDrills.Automation.testing.AppTest" class="method navigator-link" hash-for-method="test(Johne, Doe)">test(Johne, Doe)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-TestNG_Practice" title="testDrills.Automation.testing.AppTest" class="method navigator-link" hash-for-method="test(Sihle, Mbeki)">test(Sihle, Mbeki)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -132,10 +137,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test(Chrome)">
-                  </a> <!-- test(Chrome) -->
+                  <a name="test(Johne, Doe)">
+                  </a> <!-- test(Johne, Doe) -->
                   <span class="method-name">test</span>
-                  <span class="parameters">(Chrome)</span>
+                  <span class="parameters">(Johne, Doe)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test(Sihle, Mbeki)">
+                  </a> <!-- test(Sihle, Mbeki) -->
+                  <span class="method-name">test</span>
+                  <span class="parameters">(Sihle, Mbeki)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -216,20 +229,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test')
 data.setCell(0, 2, 'testDrills.Automation.testing.AppTest')
-data.setCell(0, 3, 4);
+data.setCell(0, 3, 13);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'test2')
 data.setCell(1, 2, 'testDrills.Automation.testing.AppTest')
-data.setCell(1, 3, 0);
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'test')
+data.setCell(2, 2, 'testDrills.Automation.testing.AppTest')
+data.setCell(2, 3, 0);
 window.suiteTableData['TestNG_Practice']= { tableData: data, tableDiv: 'times-div-TestNG_Practice'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 ms</span>
+              <span class="suite-total-time">Total running time: 14 ms</span>
               <div id="times-div-TestNG_Practice">
               </div> <!-- times-div-TestNG_Practice -->
             </div> <!-- times-div -->
@@ -266,60 +283,68 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">testDrills.Automation.testing.AppTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
-                <span class="method-name">method1</span>
+                <span class="method-name">setTestSuite</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
-                <span class="method-name">method2</span>
-                <span class="method-start">43 ms</span>
+                <span class="method-name">setTestReport</span>
+                <span class="method-start">298 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">method3</span>
-                <span class="method-start">83 ms</span>
+                <span class="method-start">332 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
-                <span class="method-name">createTestReport(public void testDrills.Automation.testing.AppTest.test(java.lang.String))</span>
-                <span class="method-start">141 ms</span>
+                <span class="method-name">createTestReport(public void testDrills.Automation.testing.AppTest.test(java.lang.String,java.lang.String))</span>
+                <span class="method-start">382 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">test(Chrome)</span>
-                <span class="method-start">147 ms</span>
+                <span class="method-name">test(Johne, Doe)</span>
+                <span class="method-start">397 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">createTestReport(public void testDrills.Automation.testing.AppTest.test(java.lang.String,java.lang.String))</span>
+                <span class="method-start">416 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test(Sihle, Mbeki)</span>
+                <span class="method-start">417 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">postMethod3</span>
-                <span class="method-start">159 ms</span>
+                <span class="method-start">418 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test after">
                 <span class="method-name">postMethod2</span>
-                <span class="method-start">164 ms</span>
+                <span class="method-start">422 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-test before">
-                <span class="method-name">method2</span>
-                <span class="method-start">221 ms</span>
+                <span class="method-name">setTestReport</span>
+                <span class="method-start">479 ms</span>
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">method3</span>
-                <span class="method-start">222 ms</span>
+                <span class="method-start">479 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">createTestReport(public void testDrills.Automation.testing.AppTest.test2())</span>
-                <span class="method-start">223 ms</span>
+                <span class="method-start">480 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">test2</span>
-                <span class="method-start">224 ms</span>
+                <span class="method-start">481 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">postMethod3</span>
-                <span class="method-start">224 ms</span>
+                <span class="method-start">482 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test after">
                 <span class="method-name">postMethod2</span>
-                <span class="method-start">225 ms</span>
+                <span class="method-start">483 ms</span>
               </div> <!-- configuration-test after -->
               <div class="configuration-suite after">
                 <span class="method-name">postMethod1</span>
-                <span class="method-start">239 ms</span>
+                <span class="method-start">499 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
