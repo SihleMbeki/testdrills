@@ -12,10 +12,12 @@ import org.testng.annotations.BeforeTest;
 import com.aventstack.extentreports.ExtentTest;
 
 import Utilities.ExtentReport;
+import Utilities.WebDriverActions;
 
 public class Base {
 	//Test item for the page results
 	ExtentTest test;
+	WebDriverActions webDriver;
 	
 	/*Setting test suite methods
 	 * 
@@ -27,6 +29,7 @@ public class Base {
 	@BeforeSuite
 	public void setTestSuite() {
 		ExtentReport.createReport();
+		webDriver=new WebDriverActions();
 	}
 	
 	@BeforeTest

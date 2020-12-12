@@ -12,7 +12,7 @@
           <include name="setTestReport"/>
           <include name="createTestReport"/>
           <include name="setTestSuite"/>
-          <include name="test"/>
+          <include name="test" invocation-numbers="1"/>
         </methods>
       </class> <!-- testDrills.Automation.testing.AppTest -->
     </classes>
