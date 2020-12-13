@@ -5,14 +5,8 @@
     <classes>
       <class name="testDrills.Automation.testing.AppTest">
         <methods>
-          <include name="postMethod1"/>
-          <include name="method3"/>
-          <include name="postMethod3"/>
-          <include name="postMethod2"/>
-          <include name="setTestReport"/>
           <include name="createTestReport"/>
-          <include name="setTestSuite"/>
-          <include name="test" invocation-numbers="1"/>
+          <include name="test" invocation-numbers="1 0"/>
         </methods>
       </class> <!-- testDrills.Automation.testing.AppTest -->
     </classes>

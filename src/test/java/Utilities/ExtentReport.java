@@ -34,7 +34,7 @@ public class ExtentReport {
 		extent.setSystemInfo("Author", "Masakhane Matanzima");
 	}
 
-	public static ExtentTest createTest(String testName) {
+	public static synchronized ExtentTest createTest(String testName) {
 		return extent.createTest(testName);
 	}
 

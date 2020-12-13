@@ -2,31 +2,42 @@
 <testng-results ignored="2" total="5" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-12-12T21:43:40 CAT" name="TestNG Practice" finished-at="2020-12-12T21:43:40 CAT" duration-ms="186">
+  <suite started-at="2020-12-13T16:29:50 CAT" name="TestNG Practice" finished-at="2020-12-13T16:30:08 CAT" duration-ms="17714">
     <groups>
     </groups>
-    <test started-at="2020-12-12T21:43:40 CAT" name="Test one" finished-at="2020-12-12T21:43:40 CAT" duration-ms="124">
+    <test started-at="2020-12-13T16:29:50 CAT" name="Test one" finished-at="2020-12-13T16:30:08 CAT" duration-ms="17579">
       <class name="testDrills.Automation.testing.AppTest">
-        <test-method is-config="true" signature="setTestReport()[pri:0, instance:testDrills.Automation.testing.AppTest@58434b19]" started-at="2020-12-12T21:43:40 CAT" name="setTestReport" finished-at="2020-12-12T21:43:40 CAT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="setTestReport()[pri:0, instance:testDrills.Automation.testing.AppTest@3791f50e]" started-at="2020-12-13T16:29:50 CAT" name="setTestReport" finished-at="2020-12-13T16:29:50 CAT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setTestReport -->
-        <test-method is-config="true" signature="method3()[pri:0, instance:testDrills.Automation.testing.AppTest@58434b19]" started-at="2020-12-12T21:43:40 CAT" name="method3" finished-at="2020-12-12T21:43:40 CAT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="method3()[pri:0, instance:testDrills.Automation.testing.AppTest@3791f50e]" started-at="2020-12-13T16:29:50 CAT" name="method3" finished-at="2020-12-13T16:29:50 CAT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method3 -->
-        <test-method is-config="true" signature="createTestReport(java.lang.reflect.Method)[pri:0, instance:testDrills.Automation.testing.AppTest@58434b19]" started-at="2020-12-12T21:43:40 CAT" name="createTestReport" finished-at="2020-12-12T21:43:40 CAT" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="createTestReport(java.lang.reflect.Method)[pri:0, instance:testDrills.Automation.testing.AppTest@3791f50e]" started-at="2020-12-13T16:29:50 CAT" name="createTestReport" finished-at="2020-12-13T16:29:50 CAT" duration-ms="6" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testDrills.Automation.testing.AppTest.test(java.lang.String,java.lang.String)]]>
+                <![CDATA[public void testDrills.Automation.testing.AppTest.test(java.lang.String,java.lang.String,java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createTestReport -->
-        <test-method signature="test(java.lang.String, java.lang.String)[pri:1, instance:testDrills.Automation.testing.AppTest@58434b19]" started-at="2020-12-12T21:43:40 CAT" name="test" data-provider="getTableData" finished-at="2020-12-12T21:43:40 CAT" duration-ms="13" status="PASS">
+        <test-method is-config="true" signature="createTestReport(java.lang.reflect.Method)[pri:0, instance:testDrills.Automation.testing.AppTest@3791f50e]" started-at="2020-12-13T16:29:50 CAT" name="createTestReport" finished-at="2020-12-13T16:29:50 CAT" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testDrills.Automation.testing.AppTest.test(java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createTestReport -->
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testDrills.Automation.testing.AppTest@3791f50e]" started-at="2020-12-13T16:29:50 CAT" name="test" data-provider="getTableData" finished-at="2020-12-13T16:30:06 CAT" duration-ms="15460" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -38,22 +49,16 @@
                 <![CDATA[Doe]]>
               </value>
             </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method is-config="true" signature="createTestReport(java.lang.reflect.Method)[pri:0, instance:testDrills.Automation.testing.AppTest@58434b19]" started-at="2020-12-12T21:43:40 CAT" name="createTestReport" finished-at="2020-12-12T21:43:40 CAT" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
+            <param index="2">
               <value>
-                <![CDATA[public void testDrills.Automation.testing.AppTest.test(java.lang.String,java.lang.String)]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createTestReport -->
-        <test-method signature="test(java.lang.String, java.lang.String)[pri:1, instance:testDrills.Automation.testing.AppTest@58434b19]" started-at="2020-12-12T21:43:40 CAT" name="test" data-provider="getTableData" finished-at="2020-12-12T21:43:40 CAT" duration-ms="0" status="PASS">
+        </test-method> <!-- test -->
+        <test-method signature="test(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testDrills.Automation.testing.AppTest@3791f50e]" started-at="2020-12-13T16:29:50 CAT" name="test" data-provider="getTableData" finished-at="2020-12-13T16:30:08 CAT" duration-ms="17470" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -65,58 +70,70 @@
                 <![CDATA[Mbeki]]>
               </value>
             </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method is-config="true" signature="postMethod3()[pri:0, instance:testDrills.Automation.testing.AppTest@58434b19]" started-at="2020-12-12T21:43:40 CAT" name="postMethod3" finished-at="2020-12-12T21:43:40 CAT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="postMethod3()[pri:0, instance:testDrills.Automation.testing.AppTest@3791f50e]" started-at="2020-12-13T16:30:08 CAT" name="postMethod3" finished-at="2020-12-13T16:30:08 CAT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postMethod3 -->
-        <test-method is-config="true" signature="postMethod2()[pri:0, instance:testDrills.Automation.testing.AppTest@58434b19]" started-at="2020-12-12T21:43:40 CAT" name="postMethod2" finished-at="2020-12-12T21:43:40 CAT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="postMethod2()[pri:0, instance:testDrills.Automation.testing.AppTest@3791f50e]" started-at="2020-12-13T16:30:08 CAT" name="postMethod2" finished-at="2020-12-13T16:30:08 CAT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postMethod2 -->
       </class> <!-- testDrills.Automation.testing.AppTest -->
     </test> <!-- Test one -->
-    <test started-at="2020-12-12T21:43:40 CAT" name="Test two" finished-at="2020-12-12T21:43:40 CAT" duration-ms="6">
+    <test started-at="2020-12-13T16:30:08 CAT" name="Test two" finished-at="2020-12-13T16:30:08 CAT" duration-ms="7">
       <class name="testDrills.Automation.testing.AppTest">
-        <test-method is-config="true" signature="setTestSuite()[pri:0, instance:testDrills.Automation.testing.AppTest@77c233af]" started-at="2020-12-12T21:43:40 CAT" name="setTestSuite" finished-at="2020-12-12T21:43:40 CAT" duration-ms="297" status="PASS">
+        <test-method is-config="true" signature="setTestSuite()[pri:0, instance:testDrills.Automation.testing.AppTest@141d3d43]" started-at="2020-12-13T16:29:50 CAT" name="setTestSuite" finished-at="2020-12-13T16:29:50 CAT" duration-ms="338" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setTestSuite -->
-        <test-method is-config="true" signature="setTestReport()[pri:0, instance:testDrills.Automation.testing.AppTest@77c233af]" started-at="2020-12-12T21:43:40 CAT" name="setTestReport" finished-at="2020-12-12T21:43:40 CAT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="setTestReport()[pri:0, instance:testDrills.Automation.testing.AppTest@141d3d43]" started-at="2020-12-13T16:30:08 CAT" name="setTestReport" finished-at="2020-12-13T16:30:08 CAT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setTestReport -->
-        <test-method is-config="true" signature="method3()[pri:0, instance:testDrills.Automation.testing.AppTest@77c233af]" started-at="2020-12-12T21:43:40 CAT" name="method3" finished-at="2020-12-12T21:43:40 CAT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="method3()[pri:0, instance:testDrills.Automation.testing.AppTest@141d3d43]" started-at="2020-12-13T16:30:08 CAT" name="method3" finished-at="2020-12-13T16:30:08 CAT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method3 -->
-        <test-method is-config="true" signature="createTestReport(java.lang.reflect.Method)[pri:0, instance:testDrills.Automation.testing.AppTest@77c233af]" started-at="2020-12-12T21:43:40 CAT" name="createTestReport" finished-at="2020-12-12T21:43:40 CAT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="createTestReport(java.lang.reflect.Method)[pri:0, instance:testDrills.Automation.testing.AppTest@141d3d43]" started-at="2020-12-13T16:30:08 CAT" name="createTestReport" finished-at="2020-12-13T16:30:08 CAT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void testDrills.Automation.testing.AppTest.test2()]]>
+                <![CDATA[public void testDrills.Automation.testing.AppTest.test2(java.lang.String)]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createTestReport -->
-        <test-method signature="test2()[pri:2, instance:testDrills.Automation.testing.AppTest@77c233af]" started-at="2020-12-12T21:43:40 CAT" name="test2" finished-at="2020-12-12T21:43:40 CAT" duration-ms="1" status="PASS">
+        <test-method signature="test2(java.lang.String)[pri:2, instance:testDrills.Automation.testing.AppTest@141d3d43]" started-at="2020-12-13T16:30:08 CAT" name="test2" finished-at="2020-12-13T16:30:08 CAT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method is-config="true" signature="postMethod3()[pri:0, instance:testDrills.Automation.testing.AppTest@77c233af]" started-at="2020-12-12T21:43:40 CAT" name="postMethod3" finished-at="2020-12-12T21:43:40 CAT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="postMethod3()[pri:0, instance:testDrills.Automation.testing.AppTest@141d3d43]" started-at="2020-12-13T16:30:08 CAT" name="postMethod3" finished-at="2020-12-13T16:30:08 CAT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postMethod3 -->
-        <test-method is-config="true" signature="postMethod2()[pri:0, instance:testDrills.Automation.testing.AppTest@77c233af]" started-at="2020-12-12T21:43:40 CAT" name="postMethod2" finished-at="2020-12-12T21:43:40 CAT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="postMethod2()[pri:0, instance:testDrills.Automation.testing.AppTest@141d3d43]" started-at="2020-12-13T16:30:08 CAT" name="postMethod2" finished-at="2020-12-13T16:30:08 CAT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postMethod2 -->
-        <test-method is-config="true" signature="postMethod1()[pri:0, instance:testDrills.Automation.testing.AppTest@77c233af]" started-at="2020-12-12T21:43:41 CAT" name="postMethod1" finished-at="2020-12-12T21:43:41 CAT" duration-ms="726" status="PASS">
+        <test-method is-config="true" signature="postMethod1()[pri:0, instance:testDrills.Automation.testing.AppTest@141d3d43]" started-at="2020-12-13T16:30:08 CAT" name="postMethod1" finished-at="2020-12-13T16:30:09 CAT" duration-ms="1054" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- postMethod1 -->

@@ -1,26 +1,33 @@
 package Utilities;
 
+import java.net.MalformedURLException;
+import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import testDrills.Automation.testing.Base;
 
-public class WebDriverActions {
-	WebDriver driver;
+public class WebDriverActions extends Base{
+	/*
+	 * Set chrome driver instance threads 
+	 *  
+	 */
+
+	public RemoteWebDriver driver;
+	public DesiredCapabilities capabilities = null;
+
 	
-	public WebDriverActions() {
-		WebDriverManager.chromedriver().setup();		ChromeOptions options = new ChromeOptions();
-		options.addArguments("start-maximized");
-		driver= new ChromeDriver(options);
-//		driver.get("http://google.com");
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+
+	public  void createDriverInstance(String browser) {
+		
+
 	}
-	
-	public ChromeDriver getDriver() {
-		return (ChromeDriver) driver;
-	}
+
 }

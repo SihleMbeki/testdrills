@@ -2,7 +2,6 @@
 <!DOCTYPE suite >
 <suite name="TestNG Practice">
 	<test name="Test one">
-	<parameter name="BrowserType" value="Chrome"/>
 		<classes>
 			<class name="testDrills.Automation.testing.AppTest">
 			<methods>
@@ -12,6 +11,7 @@
 		</classes>
 	</test> 
 	<test name="Test two">
+		<parameter name="BrowserType" value="Chrome"/>
 		<classes>
 			<class name="testDrills.Automation.testing.AppTest">
 			<methods>
